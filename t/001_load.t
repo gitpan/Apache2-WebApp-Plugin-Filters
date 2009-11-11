@@ -14,6 +14,6 @@ BEGIN {
 
 my $obj = new Apache2::WebApp::Plugin::Filters;
 
-isa_ok ( $obj, 'Apache2::WebApp::Plugin::Filters' );
+isa_ok( $obj, 'Apache2::WebApp::Plugin::Filters' );
 
 done_testing();

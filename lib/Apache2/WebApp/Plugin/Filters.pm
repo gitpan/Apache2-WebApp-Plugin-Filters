@@ -20,7 +20,7 @@ use base 'Apache2::WebApp::Plugin';
 use HTML::StripScripts::Parser;
 use Params::Validate qw( :all );
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~[  OBJECT METHODS  ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -161,7 +161,7 @@ This package is part of a larger distribution and was NOT intended to be used
 directly.  In order for this plugin to work properly, the following packages
 must be installed:
 
-  Apache2::WebApp::Toolkit
+  Apache2::WebApp
   HTML::StripScripts::Parser
   Params::Validate
 

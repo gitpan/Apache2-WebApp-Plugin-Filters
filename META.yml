@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name: Apache2::WebApp::Plugin::Filters
 abstract: Common methods for filtering HTTP request parameters.
-version: 0.02
+version: 0.03
 author:
   - Marc S. Brooks <mbrooks@cpan.org>
 license: perl and artistic

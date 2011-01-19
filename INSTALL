@@ -8,13 +8,12 @@ Install this package from source:
 
 Perl one liner using CPAN.pm:
 
-  perl -MCPAN -e 'install Apache2::WebApp::Plugin::Filters'
+  $ perl -MCPAN -e 'install Apache2::WebApp::Plugin::Filters'
 
 
 Use of CPAN.pm in interactive mode:
 
   $ perl -MCPAN -e shell
-
   cpan> install Apache2::WebApp::Plugin::Filters
   cpan> quit
 
